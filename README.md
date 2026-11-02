@@ -1,15 +1,15 @@
-# Use Tailscale with Mullvad on Linux
+# Use Tailscale alongside a VPN on Linux
 
-Use Tailscale and the Mullvad desktop app at the same time on Linux. This
-configuration marks Tailnet traffic so Mullvad permits the kernel to route it
-through `tailscale0`.
+Use Tailscale and a VPN app at the same time on Linux. This page covers
+**Mullvad**. For **NordVPN**, see the [NordVPN version](nordvpn/README.md).
+
+The Mullvad configuration marks Tailnet traffic so Mullvad permits the kernel
+to route it through `tailscale0`.
 
 Based on [TheOrangeOne's guide][orangeone] and
 [Mullvad's advanced Linux split-tunnelling documentation][mullvad-docs].
 This variant adds IPv6 support, interface-restricted inbound rules, and a
 dedicated systemd service.
-
-> **Using NordVPN instead?** See the [NordVPN version](nordvpn/README.md).
 
 **Tested on 2026-07-28 with:**
 
