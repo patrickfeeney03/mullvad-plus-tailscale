@@ -9,6 +9,8 @@ Based on [TheOrangeOne's guide][orangeone] and
 This variant adds IPv6 support, interface-restricted inbound rules, and a
 dedicated systemd service.
 
+> **Using NordVPN instead?** See the [NordVPN version](nordvpn/README.md).
+
 **Tested on 2026-07-28 with:**
 
 - Ubuntu 26.04
