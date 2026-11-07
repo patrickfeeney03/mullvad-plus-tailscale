@@ -1,6 +1,6 @@
 [Unit]
 Description=Allow Tailscale traffic alongside NordVPN's firewall
-Documentation=https://github.com/patrickfeeney03/mullvad-plus-tailscale/tree/master/nordvpn
+Documentation=https://guides.patrick.pe/posts/use-tailscale-with-nordvpn-on-linux
 After=nordvpnd.service tailscaled.service
 Wants=nordvpnd.service tailscaled.service
 
