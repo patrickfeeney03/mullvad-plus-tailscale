@@ -1,1 +1,2 @@
-<https://guides.patrick.pe>
+- <https://guides.patrick.pe/posts/use-tailscale-alongside-a-mullvad-on-ubuntu>
+- <https://guides.patrick.pe/posts/use-tailscale-with-nordvpn-on-linux>
